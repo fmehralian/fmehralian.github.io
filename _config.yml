@@ -16,26 +16,25 @@ defaults:
     values:
       layout: "post"
 
-projects:
-  sort_by: pushed
-  # sort_by options:
-  #   - pushed
-  #   - stars
-  limit: 9
-  exclude:
-    archived: false
-    forks: true
-    projects:
-    # - repo-name
+bio: "Adventurous, Focused, Driven, Always up for a new challenge!"
 
-# social_media:
+about: "PhD candidate in Software Engineering at UC Irvine, under the supervision of <a href=\"https://www.ics.uci.edu/~malek/\">Dr. Sam Malek</a>. My research focus is on Automated Software Testing and Analysis using Neural Networks using Machine Learning techniques as well as Static/Dynamic Analysis. My dissertation focus is on Advancing Accessibility Testing and Repair in Mobile apps.
+In my heart of hearts, I am a researcher with a passion in automation and curiosity in learning from observations and data. "
+
+email: f.mehralian90@gmail.com
+
+
+social_media:
+  linkedin: fmehralian
+  scholar: https
+  github: fmehralian
+
   # behance: your_username
   # dribbble: your_username
   # facebook: your_username
   # hackerrank: your_username
   # instagram: your_username
   # keybase: your_username
-  # linkedin: your_username
   # mastodon: your_username
   # medium: your_username
   # stackoverflow: your_user_id
@@ -46,13 +45,24 @@ projects:
   # website: http://your_website_url
   # youtube: your_username
 
+work:
+  - company: "University of California, Irvine"
+    company_url: "http://seal.ics.uci.edu"
+    role: "Graduate Research Assistant"
+    start: "June 2019"
+    end: "Present"
+    description: "<ul class='text-gray mb-2 ws-normal pl-3'>
+      <li> Conducting research in the areas of Automated Software Engineering</li>
+    </ul>"
+
+publication:
+  - name: "Data Driven Accessibility Repair Revisited"
+    authors: "Forough"
+    conference: "FSE"
+    pdf: "link"
+
 topics:
-  - name: CSS
-    web_url: https://github.com/topics/css
-    image_url: https://raw.githubusercontent.com/github/explore/6c6508f34230f0ac0d49e847a326429eefbfc030/topics/css/css.png
-
-  - name: Web design
-
-  - name: Sass
-    web_url: https://github.com/topics/sass
-    image_url: https://raw.githubusercontent.com/github/explore/6c6508f34230f0ac0d49e847a326429eefbfc030/topics/sass/sass.png
+  - name: Java
+  - name: Python
+  - name: Machine Learning 
+  
