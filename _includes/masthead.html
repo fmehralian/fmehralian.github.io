@@ -56,5 +56,8 @@
     {% if user.hireable %}
       <span title="Hire me" class="d-inline-block f5 rounded-2 text-white bg-green py-1 px-2">Available for hire</span>
     {% endif %}
+    {% unless posts_total == 0 %}
+      {% include thoughts.html %}
+    {% endunless %}
   </div>
 {% endif %}
