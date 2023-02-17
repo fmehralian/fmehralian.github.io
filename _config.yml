@@ -103,11 +103,16 @@ publication:
     repo: "https://github.com/seal-hub/ACETON"
     html_url: "https://dl.acm.org/doi/abs/10.1145/3468264.3468604"
 
-# projects:
-#   - name: SootTutorial
-#     description: A step-by-step tutorial for Soot, a Java and Android static analysis framework
-#     html_url: https://github.com/noidsirius/SootTutorial
-#     source: github
+projects:
+  - name: ACETON
+    description: A Deep Learning-based tool that automatically generates an energy test oracle for mobile apps.
+    html_url: https://github.com/seal-hub/ACETON
+    source: github
+
+  - name: COALA
+    description: A context-aware label generation model that utilizes deep learning to generate labels for unlabeld icons.
+    html_url: https://github.com/fmehralian/COALA
+    source: github
 
 topics:
   - name: Java
