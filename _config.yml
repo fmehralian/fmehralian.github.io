@@ -18,7 +18,7 @@ defaults:
 
 bio: "Adventurous, Focused, Driven, Always up for a new challenge!"
 
-about: "PhD candidate in Software Engineering at UC Irvine, under the supervision of <a href=\"https://www.ics.uci.edu/~malek/\">Dr. Sam Malek</a>. My research interest is in automated software testing and analysis using machine learning techniques as well as data analysis. My dissertation focus is on advancing accessibility testing and repair in mobile apps.
+about: "I am a PhD candidate in Software Engineering at UC Irvine, under the supervision of <a href=\"https://www.ics.uci.edu/~malek/\">Dr. Sam Malek</a>. My research interest is in automated software testing and analysis using machine learning techniques as well as data analysis. My dissertation focus is on advancing accessibility testing and repair in mobile apps.
 In my heart of hearts, I am passionate about automation, driven to learn from observations, and dedicated to promoting inclusion. "
 
 email: f.mehralian90@gmail.com
@@ -52,9 +52,9 @@ work:
     start: "Jun 2019"
     end: "Present"
     description: "<ul class='text-gray mb-2 ws-normal pl-3'>
-      <li> Designed and implemented a suite of novel automated accessibility testing tools for Android apps, utilizing state-of-the-art machine learning techniques and frameworks such as PyTorch, as well as static and dynamic analysis methods.</li>
+      <li> Designed and implemented a suite of novel automated accessibility testing tools for Android apps, utilizing machine learning techniques, as well as static and dynamic analysis methods.</li>
       <li> Conducted extensive research into the use of image captioning for labeling unlabeled icons in Android apps, and identified a data-driven bias in the existing approach. Developed a novel deep learning solution, which significantly improved the quality of the generated labels.</li>
-      <li> Designed and implemented a Deep Learning-based technique using PyTorch for building an oracle for energy tests. </li>
+      <li> Designed and implemented a deep learning-based technique using PyTorch for building an oracle for energy tests. </li>
     </ul>"
 
   - company: "Candelis Inc."
@@ -86,11 +86,13 @@ publication:
   - name: "Too Much Accessibility is Harmful! Automated Detection and Analysis of Overly Accessible Elements in Mobile Apps"
     authors: "<u>Forough Mehralian*</u>, Navid Salehnamadi*, Syed Fatiul Huq, and Sam Malek"
     conference: "<strong>ASE 2022</strong>, 37th International Conference on Automated Software Engineering, October 2022"
+    html_url: "https://dl.acm.org/doi/abs/10.1145/3551349.3560424"
     pdf: "https://seal.ics.uci.edu/publications/2022_ASE_Oversight.pdf"
   - name: "Groundhog: An Automated Accessibility Crawler for Mobile Apps"
     authors: "Navid Salehnamadi*, <u>Forough Mehralian*</u>, and Sam Malek"
     conference: "<strong>ASE 2022</strong>, 37th International Conference on Automated Software Engineering, October 2022"
     pdf: "https://seal.ics.uci.edu/publications/2022_ASE_Groundhog.pdf"
+    html_url: "https://dl.acm.org/doi/abs/10.1145/3551349.3556905"
   - name: "Data-driven Accessibility Repair Revisited: On the Effectiveness of Generating Labels for Icons in Android Apps"
     authors: "<u>Forough Mehralian</u>, Navid Salehnamadi, and Sam Malek"
     conference: "<strong>ESEC/FSE 2021</strong>, 29th ACM Joint Meeting on European Software Engineering Conference and Symposium on the Foundations of Software Engineering, August 2021"
@@ -104,12 +106,12 @@ publication:
 
 projects:
   - name: ACETON
-    description: A deep learning-based tool that automatically generates energy test oracles for mobile apps.
+    description: An LSTM model with attention mechanism to automatically generate energy test oracles for mobile apps.
     html_url: https://github.com/seal-hub/ACETON
     source: github
 
   - name: COALA
-    description: A context-aware label generation model that utilizes deep learning to generate labels for unlabeld icons.
+    description: A context-aware label generation model with encoder-decoder architecture to generate labels for unlabeld icons.
     html_url: https://github.com/fmehralian/COALA
     source: github
 
