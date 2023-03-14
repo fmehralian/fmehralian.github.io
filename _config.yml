@@ -63,7 +63,7 @@ work:
     start: "Jun 2021"
     end: "Sep 2022"
     description: "<ul class='text-gray mb-2 ws-normal pl-3'>
-      <li>Designed and implemented the DICOMWeb standard, enabling web-based access to DICOM data. This involved developing the Store, Retrieve, and Query APIs as a new service, and integrating them with the company's 15-year-old source code.
+      <li>Designed and implemented the DICOMWeb standard, enabling web-based access to DICOM data. This involved developing the Store, Retrieve, and Query APIs as a new service.
  </li>
       <li> Implemented a cost-efficient archive and backup mechanism for the DICOM data using various Amazon S3 storage classes. This involved designing a data lifecycle management strategy and utilizing Amazon S3's Intelligent-Tiering and Glacier storage classes to optimize storage costs.</li>
       <li> Integrated Prometheus for time-series monitoring of key performance metrics, and utilized Grafana to visualize the data and gain insights into the system behavior. </li>
@@ -115,8 +115,12 @@ projects:
     html_url: https://github.com/fmehralian/COALA
     source: github
 
+  - name: Oversight
+    description: An accessibility service that dynamically explores Android apps with and without TalkBack to find overly accessible elements.
+    html_url: https://github.com/seal-hub/Oversight
+    source: github
+
 topics:
   - name: Java
   - name: Python
-  - name: Machine Learning 
-  
+  - name: Machine Learning
