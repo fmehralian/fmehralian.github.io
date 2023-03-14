@@ -116,7 +116,7 @@ projects:
     source: github
 
   - name: Oversight
-    description: An accessibility service that dynamically explores Android apps with and without TalkBack to find overly accessible elements.
+    description: An accessibility service that automatically explores Android apps with and without TalkBack to find overly accessible elements.
     html_url: https://github.com/seal-hub/Oversight
     source: github
 
