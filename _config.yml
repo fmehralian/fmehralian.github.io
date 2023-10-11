@@ -61,23 +61,21 @@ work:
     company_url: "https://www.candelis.com"
     role: "Software Engineer"
     start: "Jun 2021"
-    end: "Sep 2022"
+    end: "Sep 2023"
     description: "<ul class='text-gray mb-2 ws-normal pl-3'>
-      <li>Designed and implemented the DICOMWeb standard, enabling web-based access to DICOM data. This involved developing the Store, Retrieve, and Query APIs as a new service.
+      <li> Enabled web-based access to DICOM data by implementing the DICOMWEB standard. Developed Store, Retrieve, and Query APIs as a new service using REST in C++ with automated test scripts in PHP.
  </li>
-      <li> Implemented a cost-efficient archive and backup mechanism for the DICOM data using various Amazon S3 storage classes. This involved designing a data lifecycle management strategy and utilizing Amazon S3's Intelligent-Tiering and Glacier storage classes to optimize storage costs.</li>
-      <li> Integrated Prometheus for time-series monitoring of key performance metrics, and utilized Grafana to visualize the data and gain insights into the system behavior. </li>
+      <li> Engineered a cost-efficient archive and backup mechanism in C++ for DICOM data, resulting in a remarkable 72.5% reduction in storage expenses per gigabyte, leveraging Amazon S3's storage classes.</li>
+      <li> Enhanced defect localization by spearheading the development of the backend for the Performance Monitoring dashboard. Provided insights into critical system metrics, including hardware measures, database statistics, and DICOM-specific metrics. </li>
     </ul>"
 
   - company: "Café Bazaar"
     company_url: "https://cafebazaar.ir/about?l=en"
-    role: "Software Engineer"
+    role: "Software Engineering Intern"
     start: "Jun 2018"
     end: "Aug 2018"
     description: "<ul class='text-gray mb-2 ws-normal pl-3'>
       <li> Developed a micro-service using Django for Bazaar, Iran's largest app store with over 40 million users, to display ads on their search page. Utilized Docker and Kubernetes for containerization and orchestration of the micro-service, respectively.</li>
-      <li> Migrated the previous Redis database to PostgreSQL and optimized the queries to ensure improved performance and scalability.</li>
-      <li> Implemented a Second-bid auction strategy for the advertisements and conducted beta testing of the service. </li>
     </ul>"
 
 
