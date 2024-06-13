@@ -46,6 +46,15 @@ social_media:
   # youtube: your_username
 
 work:
+  - company: "Apple Inc."
+    company_url: "https://machinelearning.apple.com"
+    role: "Machine Learning Research Intern"
+    start: "Mar 2024"
+    end: "Present"
+    description: "<ul class='text-gray mb-2 ws-normal pl-3'>
+      <li> Designed and implemented a novel technique to assist developers in fixing accessibility issues in iOS apps.</li>
+      <li> Designed a multi-task LLM-based agent to localize the issues in the source code and fix them automatically.</li>
+    </ul>"
   - company: "University of California, Irvine"
     company_url: "http://seal.ics.uci.edu"
     role: "Graduate Research Assistant"
