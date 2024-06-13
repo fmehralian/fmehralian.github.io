@@ -90,6 +90,10 @@ work:
 
 
 publication:
+  - name: "Ma11y: A Mutation Framework for Web Accessibility Testing."
+    authors: "Mahan Tafreshipour, Anmol Vilas Deshpande, <u>Forough Mehralian</u>, Iftekhar Ahmed, and Sam Malek"
+    conference: "<strong>ISSTA 2024</strong>, 33rd International Symposium on Software Testing and Analysis, September 2024"
+    html_url: "https://2024.issta.org/details/issta-2024-papers/9/Ma11y-A-Mutation-Framework-for-Web-Accessibility-Testing"
   - name: "Too Much Accessibility is Harmful! Automated Detection and Analysis of Overly Accessible Elements in Mobile Apps"
     authors: "<u>Forough Mehralian*</u>, Navid Salehnamadi*, Syed Fatiul Huq, and Sam Malek"
     conference: "<strong>ASE 2022</strong>, 37th International Conference on Automated Software Engineering, October 2022"
