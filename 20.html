@@ -1,0 +1,91 @@
+
+<!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.0 Transitional//EN"
+          "http://www.w3.org/TR/xhtml1/DTD/xhtml1-transitional.dtd">
+
+<html>
+<head>
+<meta content="text/html; charset=utf-8" http-equiv="Content-Type"/>
+<title></title>
+<style type="text/css">
+        table.diff {font-family:Courier; border:medium;}
+        .diff_header {background-color:#e0e0e0}
+        td.diff_header {text-align:right}
+        .diff_next {background-color:#c0c0c0}
+        .diff_add {background-color:#aaffaa}
+        .diff_chg {background-color:#ffff77}
+        .diff_sub {background-color:#ffaaaa}
+    </style>
+</head>
+<body>
+<p>Issue 8: Contrast nearly passed <br/> Plan: Increase font size of the 'Dismiss' button. <br/> The modification builds successfully, resolves the issue and add added no more accessibility issues. </p>
+<img alt="Primary" src="https://github.com/fmehralian/fmehralian.github.io/blob/master/data/20.png?raw=true"/>
+<table cellpadding="0" cellspacing="0" class="diff" id="difflib_chg_to28__top" rules="groups">
+<colgroup></colgroup> <colgroup></colgroup> <colgroup></colgroup>
+<colgroup></colgroup> <colgroup></colgroup> <colgroup></colgroup>
+<tbody>
+<tr><td class="diff_next"><a href="#difflib_chg_to28__0">f</a></td><td class="diff_header" id="from28_1">1</td><td nowrap="nowrap">/*</td><td class="diff_next"><a href="#difflib_chg_to28__0">f</a></td><td class="diff_header" id="to28_1">1</td><td nowrap="nowrap">/*</td></tr>
+<tr><td class="diff_next"></td><td class="diff_header" id="from28_2">2</td><td nowrap="nowrap"> See LICENSE folder for this sample’s licensing information.</td><td class="diff_next"></td><td class="diff_header" id="to28_2">2</td><td nowrap="nowrap"> See LICENSE folder for this sample’s licensing information.</td></tr>
+<tr><td class="diff_next"></td><td class="diff_header" id="from28_3">3</td><td nowrap="nowrap"> */</td><td class="diff_next"></td><td class="diff_header" id="to28_3">3</td><td nowrap="nowrap"> */</td></tr>
+<tr><td class="diff_next"></td><td class="diff_header" id="from28_4">4</td><td nowrap="nowrap"></td><td class="diff_next"></td><td class="diff_header" id="to28_4">4</td><td nowrap="nowrap"></td></tr>
+<tr><td class="diff_next"></td><td class="diff_header" id="from28_5">5</td><td nowrap="nowrap">import SwiftUI</td><td class="diff_next"></td><td class="diff_header" id="to28_5">5</td><td nowrap="nowrap">import SwiftUI</td></tr>
+<tr><td class="diff_next"></td><td class="diff_header" id="from28_6">6</td><td nowrap="nowrap"></td><td class="diff_next"></td><td class="diff_header" id="to28_6">6</td><td nowrap="nowrap"></td></tr>
+<tr><td class="diff_next"></td><td class="diff_header" id="from28_7">7</td><td nowrap="nowrap">struct NewScrumSheet: View {</td><td class="diff_next"></td><td class="diff_header" id="to28_7">7</td><td nowrap="nowrap">struct NewScrumSheet: View {</td></tr>
+<tr><td class="diff_next"></td><td class="diff_header" id="from28_8">8</td><td nowrap="nowrap">    @State private var newScrum = DailyScrum.emptyScrum</td><td class="diff_next"></td><td class="diff_header" id="to28_8">8</td><td nowrap="nowrap">    @State private var newScrum = DailyScrum.emptyScrum</td></tr>
+<tr><td class="diff_next"></td><td class="diff_header" id="from28_9">9</td><td nowrap="nowrap">    @Binding var scrums: [DailyScrum]</td><td class="diff_next"></td><td class="diff_header" id="to28_9">9</td><td nowrap="nowrap">    @Binding var scrums: [DailyScrum]</td></tr>
+<tr><td class="diff_next"></td><td class="diff_header" id="from28_10">10</td><td nowrap="nowrap">    @Binding var isPresentingNewScrumView: Bool</td><td class="diff_next"></td><td class="diff_header" id="to28_10">10</td><td nowrap="nowrap">    @Binding var isPresentingNewScrumView: Bool</td></tr>
+<tr><td class="diff_next"></td><td class="diff_header" id="from28_11">11</td><td nowrap="nowrap">    </td><td class="diff_next"></td><td class="diff_header" id="to28_11">11</td><td nowrap="nowrap">    </td></tr>
+<tr><td class="diff_next"></td><td class="diff_header" id="from28_12">12</td><td nowrap="nowrap">    var body: some View {</td><td class="diff_next"></td><td class="diff_header" id="to28_12">12</td><td nowrap="nowrap">    var body: some View {</td></tr>
+<tr><td class="diff_next" id="difflib_chg_to28__0"></td><td class="diff_header" id="from28_13">13</td><td nowrap="nowrap">        NavigationStack {</td><td class="diff_next"></td><td class="diff_header" id="to28_13">13</td><td nowrap="nowrap">        NavigationStack {</td></tr>
+<tr><td class="diff_next"></td><td class="diff_header" id="from28_14">14</td><td nowrap="nowrap">            DetailEditView(scrum: $newScrum)</td><td class="diff_next"></td><td class="diff_header" id="to28_14">14</td><td nowrap="nowrap">            DetailEditView(scrum: $newScrum)</td></tr>
+<tr><td class="diff_next" id="difflib_chg_to28__1"></td><td class="diff_header" id="from28_15">15</td><td nowrap="nowrap">                .accessibilityIdentifier("NewScrumSheet_DetailEditView_13") </td><td class="diff_next"></td><td class="diff_header" id="to28_15">15</td><td nowrap="nowrap">                .accessibilityIdentifier("NewScrumSheet_DetailEditView_13") </td></tr>
+<tr><td class="diff_next"></td><td class="diff_header" id="from28_16">16</td><td nowrap="nowrap">                .toolbar {</td><td class="diff_next"></td><td class="diff_header" id="to28_16">16</td><td nowrap="nowrap">                .toolbar {</td></tr>
+<tr><td class="diff_next"></td><td class="diff_header" id="from28_17">17</td><td nowrap="nowrap">                    ToolbarItem(placement: .cancellationAction) {</td><td class="diff_next"></td><td class="diff_header" id="to28_17">17</td><td nowrap="nowrap">                    ToolbarItem(placement: .cancellationAction) {</td></tr>
+<tr><td class="diff_next"><a href="#difflib_chg_to28__1">n</a></td><td class="diff_header" id="from28_18">18</td><td nowrap="nowrap">                        Button(<span class="diff_chg">"D</span>i<span class="diff_chg">smiss")</span> {</td><td class="diff_next"><a href="#difflib_chg_to28__1">n</a></td><td class="diff_header" id="to28_18">18</td><td nowrap="nowrap">                        Button(<span class="diff_chg">act</span>i<span class="diff_chg">on:</span> {</td></tr>
+<tr><td class="diff_next"></td><td class="diff_header" id="from28_19">19</td><td nowrap="nowrap">                            isPresentingNewScrumView = false</td><td class="diff_next"></td><td class="diff_header" id="to28_19">19</td><td nowrap="nowrap">                            isPresentingNewScrumView = false</td></tr>
+<tr><td class="diff_next"><a href="#difflib_chg_to28__2">n</a></td><td class="diff_header"></td><td nowrap="nowrap"></td><td class="diff_next"><a href="#difflib_chg_to28__2">n</a></td><td class="diff_header" id="to28_20">20</td><td nowrap="nowrap"><span class="diff_add">                        }) {</span></td></tr>
+<tr><td class="diff_next"></td><td class="diff_header"></td><td nowrap="nowrap"></td><td class="diff_next"></td><td class="diff_header" id="to28_21">21</td><td nowrap="nowrap"><span class="diff_add">                            Text("Dismiss")</span></td></tr>
+<tr><td class="diff_next" id="difflib_chg_to28__2"></td><td class="diff_header"></td><td nowrap="nowrap"></td><td class="diff_next"></td><td class="diff_header" id="to28_22">22</td><td nowrap="nowrap"><span class="diff_add">                                .font(.system(size: 18))  // Modified font size</span></td></tr>
+<tr><td class="diff_next"></td><td class="diff_header" id="from28_20">20</td><td nowrap="nowrap">                        }</td><td class="diff_next"></td><td class="diff_header" id="to28_23">23</td><td nowrap="nowrap">                        }</td></tr>
+<tr><td class="diff_next"></td><td class="diff_header" id="from28_21">21</td><td nowrap="nowrap">                        .accessibilityIdentifier("NewScrumSheet_Button_18") </td><td class="diff_next"></td><td class="diff_header" id="to28_24">24</td><td nowrap="nowrap">                        .accessibilityIdentifier("NewScrumSheet_Button_18") </td></tr>
+<tr><td class="diff_next" id="difflib_chg_to28__3"></td><td class="diff_header" id="from28_22">22</td><td nowrap="nowrap">                    }</td><td class="diff_next"></td><td class="diff_header" id="to28_25">25</td><td nowrap="nowrap">                    }</td></tr>
+<tr><td class="diff_next"></td><td class="diff_header" id="from28_23">23</td><td nowrap="nowrap">                    ToolbarItem(placement: .confirmationAction) {</td><td class="diff_next"></td><td class="diff_header" id="to28_26">26</td><td nowrap="nowrap">                    ToolbarItem(placement: .confirmationAction) {</td></tr>
+<tr><td class="diff_next"><a href="#difflib_chg_to28__3">n</a></td><td class="diff_header" id="from28_24">24</td><td nowrap="nowrap">                        Button(<span class="diff_chg">"Add")</span> {</td><td class="diff_next"><a href="#difflib_chg_to28__3">n</a></td><td class="diff_header" id="to28_27">27</td><td nowrap="nowrap">                        Button(<span class="diff_chg">action:</span> {</td></tr>
+<tr><td class="diff_next"></td><td class="diff_header" id="from28_25">25</td><td nowrap="nowrap">                            scrums.append(newScrum)</td><td class="diff_next"></td><td class="diff_header" id="to28_28">28</td><td nowrap="nowrap">                            scrums.append(newScrum)</td></tr>
+<tr><td class="diff_next"></td><td class="diff_header" id="from28_26">26</td><td nowrap="nowrap">                            isPresentingNewScrumView = false</td><td class="diff_next"></td><td class="diff_header" id="to28_29">29</td><td nowrap="nowrap">                            isPresentingNewScrumView = false</td></tr>
+<tr><td class="diff_next"><a href="#difflib_chg_to28__4">n</a></td><td class="diff_header"></td><td nowrap="nowrap"></td><td class="diff_next"><a href="#difflib_chg_to28__4">n</a></td><td class="diff_header" id="to28_30">30</td><td nowrap="nowrap"><span class="diff_add">                        }) {</span></td></tr>
+<tr><td class="diff_next"></td><td class="diff_header"></td><td nowrap="nowrap"></td><td class="diff_next"></td><td class="diff_header" id="to28_31">31</td><td nowrap="nowrap"><span class="diff_add">                            Text("Add")</span></td></tr>
+<tr><td class="diff_next"></td><td class="diff_header"></td><td nowrap="nowrap"></td><td class="diff_next"></td><td class="diff_header" id="to28_32">32</td><td nowrap="nowrap"><span class="diff_add">                                .font(.system(size: 18))  // Optional: Ensure consistency in font size</span></td></tr>
+<tr><td class="diff_next"></td><td class="diff_header" id="from28_27">27</td><td nowrap="nowrap">                        }</td><td class="diff_next"></td><td class="diff_header" id="to28_33">33</td><td nowrap="nowrap">                        }</td></tr>
+<tr><td class="diff_next"></td><td class="diff_header" id="from28_28">28</td><td nowrap="nowrap">                        .accessibilityIdentifier("NewScrumSheet_Button_24") </td><td class="diff_next"></td><td class="diff_header" id="to28_34">34</td><td nowrap="nowrap">                        .accessibilityIdentifier("NewScrumSheet_Button_24") </td></tr>
+<tr><td class="diff_next"></td><td class="diff_header" id="from28_29">29</td><td nowrap="nowrap">                    }</td><td class="diff_next"></td><td class="diff_header" id="to28_35">35</td><td nowrap="nowrap">                    }</td></tr>
+<tr><td class="diff_next" id="difflib_chg_to28__4"></td><td class="diff_header" id="from28_30">30</td><td nowrap="nowrap">                }</td><td class="diff_next"></td><td class="diff_header" id="to28_36">36</td><td nowrap="nowrap">                }</td></tr>
+<tr><td class="diff_next"></td><td class="diff_header" id="from28_31">31</td><td nowrap="nowrap">        }</td><td class="diff_next"></td><td class="diff_header" id="to28_37">37</td><td nowrap="nowrap">        }</td></tr>
+<tr><td class="diff_next"></td><td class="diff_header" id="from28_32">32</td><td nowrap="nowrap">        .accessibilityIdentifier("NewScrumSheet_NavigationStack_27") </td><td class="diff_next"></td><td class="diff_header" id="to28_38">38</td><td nowrap="nowrap">        .accessibilityIdentifier("NewScrumSheet_NavigationStack_27") </td></tr>
+<tr><td class="diff_next"></td><td class="diff_header" id="from28_33">33</td><td nowrap="nowrap">    }</td><td class="diff_next"></td><td class="diff_header" id="to28_39">39</td><td nowrap="nowrap">    }</td></tr>
+<tr><td class="diff_next"></td><td class="diff_header" id="from28_34">34</td><td nowrap="nowrap">}</td><td class="diff_next"></td><td class="diff_header" id="to28_40">40</td><td nowrap="nowrap">}</td></tr>
+<tr><td class="diff_next"><a href="#difflib_chg_to28__top">t</a></td><td class="diff_header" id="from28_35">35</td><td nowrap="nowrap"><span class="diff_sub"> </span></td><td class="diff_next"><a href="#difflib_chg_to28__top">t</a></td><td class="diff_header"></td><td nowrap="nowrap"></td></tr>
+<tr><td class="diff_next"></td><td class="diff_header" id="from28_36">36</td><td nowrap="nowrap">struct NewScrumSheet_Previews: PreviewProvider {</td><td class="diff_next"></td><td class="diff_header" id="to28_41">41</td><td nowrap="nowrap">struct NewScrumSheet_Previews: PreviewProvider {</td></tr>
+<tr><td class="diff_next"></td><td class="diff_header" id="from28_37">37</td><td nowrap="nowrap">    static var previews: some View {</td><td class="diff_next"></td><td class="diff_header" id="to28_42">42</td><td nowrap="nowrap">    static var previews: some View {</td></tr>
+<tr><td class="diff_next"></td><td class="diff_header" id="from28_38">38</td><td nowrap="nowrap">        NewScrumSheet(scrums: .constant(DailyScrum.sampleData), isPresentingNewScrumView: .constant(true))</td><td class="diff_next"></td><td class="diff_header" id="to28_43">43</td><td nowrap="nowrap">        NewScrumSheet(scrums: .constant(DailyScrum.sampleData), isPresentingNewScrumView: .constant(true))</td></tr>
+<tr><td class="diff_next"></td><td class="diff_header" id="from28_39">39</td><td nowrap="nowrap">            .accessibilityIdentifier("NewScrumSheet_NewScrumSheet_33") </td><td class="diff_next"></td><td class="diff_header" id="to28_44">44</td><td nowrap="nowrap">            .accessibilityIdentifier("NewScrumSheet_NewScrumSheet_33") </td></tr>
+<tr><td class="diff_next"></td><td class="diff_header" id="from28_40">40</td><td nowrap="nowrap">    }</td><td class="diff_next"></td><td class="diff_header" id="to28_45">45</td><td nowrap="nowrap">    }</td></tr>
+<tr><td class="diff_next"></td><td class="diff_header" id="from28_41">41</td><td nowrap="nowrap">}</td><td class="diff_next"></td><td class="diff_header" id="to28_46">46</td><td nowrap="nowrap">}</td></tr>
+</tbody>
+</table>
+<table class="diff" summary="Legends">
+<tr> <th colspan="2"> Legends </th> </tr>
+<tr> <td> <table border="" summary="Colors">
+<tr><th> Colors </th> </tr>
+<tr><td class="diff_add"> Added </td></tr>
+<tr><td class="diff_chg">Changed</td> </tr>
+<tr><td class="diff_sub">Deleted</td> </tr>
+</table></td>
+<td> <table border="" summary="Links">
+<tr><th colspan="2"> Links </th> </tr>
+<tr><td>(f)irst change</td> </tr>
+<tr><td>(n)ext change</td> </tr>
+<tr><td>(t)op</td> </tr>
+</table></td> </tr>
+</table>
+</body>
+</html>
