@@ -54,7 +54,7 @@ work:
     description: "<ul class='text-gray mb-2 ws-normal pl-3'>
       <li> Designed and implemented a novel technique to assist developers in fixing accessibility issues in iOS apps.</li>
       <li> Designed a multi-task LLM-based agent to localize the issues in the source code and fix them automatically.</li>
-      <li> Submitted the results of this study to ICSE 2025. <a href="https://arxiv.org/pdf/2408.03827">View on arXiv.</a></li>
+      <li> Submitted the results of this study to ICSE 2025. <a href=\"https://arxiv.org/pdf/2408.03827\">View on arXiv.</a></li>
     </ul>"
   - company: "University of California, Irvine"
     company_url: "http://seal.ics.uci.edu"
