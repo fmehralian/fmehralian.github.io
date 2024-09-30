@@ -91,7 +91,7 @@ work:
 
 
 publication:
-- name: "Automated Accessibility Analysis of Dynamic Content Changes on Mobile Apps."
+  - name: "Automated Accessibility Analysis of Dynamic Content Changes on Mobile Apps."
     authors: "<u>Forough Mehralian</u>, Ziayo He, and Sam Malek"
     conference: "<strong>ICSE 2025</strong>, 47th International Conference on Software Engineering"
     html_url: "https://conf.researchr.org/track/icse-2025/icse-2025-research-track#Accepted-papers-First-Cycle"
