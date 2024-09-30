@@ -50,16 +50,17 @@ work:
     company_url: "https://machinelearning.apple.com"
     role: "Machine Learning Research Intern"
     start: "Mar 2024"
-    end: "Present"
+    end: "Aug 2024"
     description: "<ul class='text-gray mb-2 ws-normal pl-3'>
       <li> Designed and implemented a novel technique to assist developers in fixing accessibility issues in iOS apps.</li>
       <li> Designed a multi-task LLM-based agent to localize the issues in the source code and fix them automatically.</li>
+      <li> Submitted the results of this study to ICSE 2025. <a href="https://arxiv.org/pdf/2408.03827">View on arXiv.</a></li>
     </ul>"
   - company: "University of California, Irvine"
     company_url: "http://seal.ics.uci.edu"
     role: "Graduate Research Assistant"
     start: "Jun 2019"
-    end: "Present"
+    end: "Sep 2024"
     description: "<ul class='text-gray mb-2 ws-normal pl-3'>
       <li> Designed and implemented a suite of novel automated accessibility testing tools for Android apps, utilizing machine learning techniques, as well as static and dynamic analysis methods.</li>
       <li> Conducted extensive research into the use of image captioning for labeling unlabeled icons in Android apps, and identified a data-driven bias in the existing approach. Developed a novel deep learning solution, which significantly improved the quality of the generated labels.</li>
@@ -90,6 +91,11 @@ work:
 
 
 publication:
+- name: "Automated Accessibility Analysis of Dynamic Content Changes on Mobile Apps."
+    authors: "<u>Forough Mehralian</u>, Ziayo He, and Sam Malek"
+    conference: "<strong>ICSE 2025</strong>, 47th International Conference on Software Engineering"
+    html_url: "https://conf.researchr.org/track/icse-2025/icse-2025-research-track#Accepted-papers-First-Cycle"
+
   - name: "Ma11y: A Mutation Framework for Web Accessibility Testing."
     authors: "Mahan Tafreshipour, Anmol Vilas Deshpande, <u>Forough Mehralian</u>, Iftekhar Ahmed, and Sam Malek"
     conference: "<strong>ISSTA 2024</strong>, 33rd International Symposium on Software Testing and Analysis, September 2024"
