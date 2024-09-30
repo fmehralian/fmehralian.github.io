@@ -95,7 +95,6 @@ publication:
     authors: "<u>Forough Mehralian</u>, Ziayo He, and Sam Malek"
     conference: "<strong>ICSE 2025</strong>, 47th International Conference on Software Engineering"
     html_url: "https://conf.researchr.org/track/icse-2025/icse-2025-research-track#Accepted-papers-First-Cycle"
-
   - name: "Ma11y: A Mutation Framework for Web Accessibility Testing."
     authors: "Mahan Tafreshipour, Anmol Vilas Deshpande, <u>Forough Mehralian</u>, Iftekhar Ahmed, and Sam Malek"
     conference: "<strong>ISSTA 2024</strong>, 33rd International Symposium on Software Testing and Analysis, September 2024"
