@@ -53,8 +53,7 @@ work:
     end: "Aug 2024"
     description: "<ul class='text-gray mb-2 ws-normal pl-3'>
       <li> Designed and implemented a novel technique to assist developers in fixing accessibility issues in iOS apps.</li>
-      <li> Designed a multi-task LLM-based agent to localize the issues in the source code and fix them automatically.</li>
-      <li> Submitted the results of this study to ICSE 2025. <a href=\"https://arxiv.org/pdf/2408.03827\">View on arXiv.</a></li>
+      <li> Designed a multi-agent LLM architecture that leverage program analysis to identify and localize issues within source code, generating targeted SwiftUI modification suggestions for GUI accessibility issues with a 77% success rate. <a href=\"https://arxiv.org/pdf/2408.03827\">View on arXiv.</a></li>
     </ul>"
   - company: "University of California, Irvine"
     company_url: "http://seal.ics.uci.edu"
@@ -118,7 +117,7 @@ publication:
     authors: "Reyhaneh Jabbarvand, <u>Forough Mehralian</u>, and Sam Malek"
     conference: "<strong>ESEC/FSE 2020</strong>, 28th ACM Joint Meeting on European Software Engineering Conference and Symposium on the Foundations of Software Engineering, August 2020"
     repo: "https://github.com/seal-hub/ACETON"
-    html_url: "https://dl.acm.org/doi/abs/10.1145/3468264.3468604"
+    html_url: "https://dl.acm.org/doi/10.1145/3368089.3409677"
 
 projects:
   - name: ACETON
