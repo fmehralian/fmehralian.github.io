@@ -18,7 +18,7 @@ defaults:
 
 bio: "Adventurous, Focused, Driven, Always up for a new challenge!"
 
-about: "I am a PhD candidate in Software Engineering at UC Irvine, under the supervision of <a href=\"https://www.ics.uci.edu/~malek/\">Dr. Sam Malek</a>. My research interest is in automated software testing and analysis using machine learning techniques as well as data analysis. My dissertation focus is on advancing accessibility testing and repair in mobile apps.
+about: "I’m a Senior Data Scientist at Grid Dynamics, currently working as a research scientist with the Human-Centered AI team at Apple, focusing on the automated evaluation of generative AI tools. Prior to joining Apple, I earned my PhD in Software Engineering from UC Irvine, where I was advised by Professor Sam Malek. My doctoral research centered on automated accessibility testing and repair in mobile applications.
 In my heart of hearts, I am passionate about automation, driven to learn from observations, and dedicated to promoting inclusion. <br> <b> ** I believe in giving back to the community. If you're looking for advice in areas where I have experience, feel free to schedule a meeting with me via <a href=\"https://calendly.com/f-mehralian90/30min\">Calendly</a>. ** </b>"
 
 email: f.mehralian90@gmail.com
@@ -46,6 +46,16 @@ social_media:
   # youtube: your_username
 
 work:
+  - company: "Apple Inc. (via Grid Dynamics)"
+    company_url: "https://www.apple.com"
+    role: "Research Scientist"
+    start: "Dec 2024"
+    end: "Present"
+    description: "<ul class='text-gray mb-2 ws-normal pl-3'>
+      <li>Developing methods for automated evaluation and in-depth analysis of generative AI tools. </li>
+      <li>Conducting research on software systems to support agentic frameworks.</li>
+      <li>Designing and executing qualitative and quantitative studies on generative AI tools aimed at improving developer productivity.</li>
+    </ul>"
   - company: "Apple Inc."
     company_url: "https://machinelearning.apple.com"
     role: "Machine Learning Research Intern"
